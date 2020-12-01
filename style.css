@@ -1,0 +1,739 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Londrina+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Libre+Barcode+128+Text&family=Londrina+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.font {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-family: 'Londrina Outline', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Signika', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #141526;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    height: 2px;
+    background: #000;
+    margin-top: 0px;
+}
+
+footer {
+    background: #000;
+    height: auto;
+    margin-top: 80px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+a {
+    color: #fff;
+    font-family: 'Signika', sans-serif;
+}
+
+a hover {
+    color: #fff;
+}
+
+h3 {
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Signika', sans-serif;
+}
+
+li {
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+audio {
+    margin-top: 70px;
+}
+
+fieldset {
+    border-radius: 5px;
+    padding: none;
+}
+
+fieldset input {
+    background: transparent;
+    font-size: 18px;
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: none;
+}
+
+.audio {
+    width: 98%;
+    background: #f5f5f5;
+    border: 3px solid #fff;
+}
+
+.box {
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+
+.solusi {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+}
+
+.barcode {
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Libre Barcode 128 Text', cursive;
+    text-align: center;
+}
+
+.garis-home {
+    background: #fff;
+    width: 100%;
+    height: 3px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: block;
+}
+
+.nav {
+    font-size: 35px;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Londrina Outline', cursive;
+    color: #1ed0ff;
+    float: right;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    margin-right: 4px;
+}
+
+.nav2 {
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+    color: #1ed0ff;
+    float: left;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+}
+
+.box1 {
+    background: #fff;
+    width: 45%;
+    height: 65px;
+    float: left;
+    border: 1px solid #1ed0ff;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-top: 7%;
+    text-align: left;
+}
+
+.box2 {
+    background: #fff;
+    width: 45%;
+    height: 65px;
+    float: right;
+    border: 1px solid #1ed0ff;
+    border-radius: 5px;
+    margin-right: 2%;
+    margin-top: 7%;
+    text-align: left;
+}
+
+.box3 {
+    background: #fff;
+    width: 45%;
+    height: 65px;
+    border: 1px solid #1ed0ff;
+    border-radius: 5px;
+    margin-right: 2%;
+    margin-top: 7%;
+    text-align: left;
+}
+
+.neon {
+    color: #fff;
+    text-shadow: 0 0 5px #19abff, 0 0 10px #19abff, 0 0 20px #19abff, 0 0 45px #19abff, 0 0 40px #19abff;
+}
+
+.pilihan {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.popup {
+    font-size: 17px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+}
+
+.hasil {
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+
+.back {
+    margin-top: 5%;
+}
+
+.whatsapp {
+    background: #25d366;
+    width: 60%;
+    height: auto;
+    border-radius: 4px;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 6%;
+}
+
+.whatsapp i {
+    padding: 10px;
+}
+
+.telegram {
+    background: #0088cc;
+    width: 60%;
+    height: auto;
+    border-radius: 4px;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 6px;
+}
+
+.telegram i {
+    padding: 10px;
+}
+
+.whatsapp2 {
+    background: #25d366;
+    width: 48%;
+    height: auto;
+    float: right;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 6%;
+    margin-bottom: 15%;
+}
+
+.whatsapp2 i {
+    padding: 10px;
+}
+
+.telegram2 {
+    background: #0088cc;
+    width: 48%;
+    height: auto;
+    float: left;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 6%;
+    margin-bottom: 15%;
+}
+
+.telegram2 i {
+    padding: 10px;
+}
+
+.facebook {
+    background: #3b5998;
+    width: 60%;
+    height: auto;
+    border-radius: 4px;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 6px;
+}
+
+.facebook i {
+    padding: 10px;
+}
+
+.youtube {
+    background: #ff0000;
+    width: 60%;
+    height: auto;
+    border-radius: 4px;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 6px;
+}
+
+.youtube i {
+    padding: 10px;
+}
+
+.harga {
+    font-size: 19px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 15px;
+}
+
+.harga2 {
+    font-size: 17px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 15px;
+}
+
+.harga3 {
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 15px;
+}
+
+.harga li {
+    margin-top: 3px;
+}
+
+.harga2 li {
+    margin-top: 3px;
+}
+
+img {
+    width: 40%;
+    height: auto;
+}
+
+.scroll {
+    display: block;
+    padding: 5px;
+    margin-top: 5px;
+    width: 97%;
+    height: 600px;
+    overflow: scroll;
+}
+
+.testi-bottom {
+    width: 100%;
+    height: auto;
+    margin-top: 1200px;
+}
+
+.beli {
+    background: #fff;
+    width: 90%;
+    height: auto;
+    border: 2px solid #000;
+    border-radius: 4px;
+    font-size: 25px;
+    color: #000;
+    margin-top: 4%;
+    padding: 10px;
+}
+
+.beli2 {
+    background: #000;
+    width: 40%;
+    height: auto;
+    border-radius: 4px;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 4%;
+    padding: 10px;
+}
+
+.cart {
+    background: #fff;
+    width: 85%;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+    border-radius: 5px;
+    text-align: left;
+    padding: 20px;
+}
+
+.form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #888;
+    color: #000;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 0;
+    display: block;
+    width: 100%;
+}
+
+.form select {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #888;
+    color: #000;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 0;
+    display: block;
+    width: 100%;
+}
+
+.demo {
+    background: #1ed0ff;
+    width: 50%;
+    height: auto;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.log-cpanel {
+    background: #ff7300;
+    width: 39%;
+    height: auto;
+    border-radius: 4px;
+    font-size: 100%;
+    color: #fff;
+    padding: 9px;
+    float: left;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.buy {
+    background: #09b051;
+    width: 21%;
+    height: auto;
+    border-radius: 4px;
+    font-size: 100%;
+    color: #fff;
+    padding: 9px;
+    float: right;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.log-whm {
+    background: #37475c;
+    width: 37%;
+    height: auto;
+    float: right;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #fff;
+    padding: 9px;
+    margin-right: 0%;
+    margin-top: 0px;
+    margin-bottom: 0%;
+}
+
+.peraturan {
+    background: #ed1f1f;
+    width: 40%;
+    height: 40px;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+#peraturan {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    visibility: hidden;
+}
+
+.window {
+    width: 90%;
+    height: auto;
+    background: #fff;
+    border-radius: 7px;
+    position: relative;
+    padding: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    margin: 15% auto;
+}
+
+#peraturan:target {
+    visibility: visible;
+}
+
+#server {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    visibility: hidden;
+}
+
+.window {
+    width: 90%;
+    height: auto;
+    background: #fff;
+    border-radius: 7px;
+    position: relative;
+    padding: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    margin: 15% auto;
+}
+
+#server:target {
+    visibility: visible;
+}
+
+#coming-soon {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    visibility: hidden;
+}
+
+.window {
+    width: 90%;
+    height: auto;
+    background: #fff;
+    border-radius: 7px;
+    position: relative;
+    padding: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    margin: 15% auto;
+}
+
+#coming-soon:target {
+    visibility: visible;
+}
+
+#cpanel {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    visibility: hidden;
+}
+
+.window {
+    width: 90%;
+    height: auto;
+    background: #fff;
+    border-radius: 7px;
+    position: relative;
+    padding: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    margin: 15% auto;
+}
+
+#cpanel:target {
+    visibility: visible;
+}
+
+#script {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    visibility: hidden;
+}
+
+.window {
+    width: 90%;
+    height: auto;
+    background: #fff;
+    border-radius: 7px;
+    position: relative;
+    padding: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    margin: 15% auto;
+}
+
+#script:target {
+    visibility: visible;
+}
+
+#web {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    visibility: hidden;
+}
+
+.window {
+    width: 90%;
+    height: auto;
+    background: #fff;
+    border-radius: 7px;
+    position: relative;
+    padding: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    margin: 15% auto;
+}
+
+#web:target {
+    visibility: visible;
+}
+
+#domain {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    visibility: hidden;
+}
+
+.window {
+    width: 90%;
+    height: auto;
+    background: #fff;
+    border-radius: 7px;
+    position: relative;
+    padding: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    margin: 15% auto;
+}
+
+#domain:target {
+    visibility: visible;
+}
+
+#testi {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    visibility: hidden;
+}
+
+.window {
+    width: 90%;
+    height: auto;
+    background: #fff;
+    border-radius: 7px;
+    position: relative;
+    padding: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    margin: 15% auto;
+}
+
+#testi:target {
+    visibility: visible;
+}
+
+#kontak {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    visibility: hidden;
+}
+
+.window {
+    width: 90%;
+    height: auto;
+    background: #fff;
+    border-radius: 7px;
+    position: relative;
+    padding: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    margin: 15% auto;
+}
+
+#kontak:target {
+    visibility: visible;
+}
+
+#beli {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    visibility: hidden;
+}
+
+.window {
+    width: 90%;
+    height: auto;
+    background: #fff;
+    border-radius: 7px;
+    position: relative;
+    padding: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    margin: 15% auto;
+}
+
+#beli:target {
+    visibility: visible;
+}
+
+button {
+    cursor: pointer;
+}

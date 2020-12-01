@@ -1,0 +1,42 @@
+
+.tab {
+	background: #fff;
+	width: 86%;
+	height: 38px;
+	border-radius: 5px;
+	margin-left: 0px;
+	padding: 10px;
+
+}
+
+.tab2{
+	background: #fff;
+	width: 85%;
+	height: auto;
+	margin-top: 15px;
+	margin-left: 4px;
+	margin-right: 3px;
+	border-radius: 5px;
+	padding: 12px;
+}
+.tab2 button{
+	background: none;
+	width: 100%;
+	height: 50px;
+	border: none;
+	border-bottom: 1px solid #dbdbdb;
+	text-align: left;
+}
+.tab2 i{
+	float: right;
+}
+.foxnesia{
+	background:#0a7bf5;
+	width: 60%;
+	height: 70px;
+	border-radius: 5px;
+}
+.foxnesia img{
+	width: 70%;
+	height: auto;
+}
